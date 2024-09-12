@@ -1,7 +1,7 @@
 # FStartBench
 FStartBench is a benchmark suite with serverless workload.
 
-Our project uses eight commonly used application programs on a serverless computing platform as benchmark test programs to represent typical cloud server workloads. Deploying these 73 functions on a serverless platform allows for testing of their cold start time, execution time, memory usage, and other related information. This benchmark can help researchers improve their applications or optimize platform performance.
+Our project uses eight commonly used application programs on a serverless computing platform as benchmark test programs to represent typical cloud server workloads. Deploying these 72 functions on a serverless platform allows for testing of their cold start time, execution time, memory usage, and other related information. This benchmark can help researchers improve their applications or optimize platform performance.
 
 ## Test Cases
 ### 1. Hello App
@@ -26,4 +26,4 @@ Libraries-Numpy contains 20 functions from Numpy libraries based on Python, aime
 Libraries-Torch comprises 20 functions from Torch libraries, which provide functionalities related to machine learning on images. Similar to Libraries-Numpy, these functions are also developed using a consistent operating system and Python language, as well as the same versions of dependencies. Notably, Libraries-Numpy is built on Alpine, while Libraries-Torch is based on Debian.
 
 ### 8. Applications
-Applications includes a total of 20 applications in three different programming languages. Among them, Java has 5 applications designed for processing input .csv data, while Node.js and Python have 6 and 9 applications, respectively, each covering different content. The details are provided in the table below.
+Applications includes a total of 20 applications in three different programming languages. Among them, Java has 5 applications designed for processing input .csv data, while Node.js and Python have 6 and 8 applications, respectively, each covering different content. The details are provided in the table below.
