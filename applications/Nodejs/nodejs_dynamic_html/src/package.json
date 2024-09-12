@@ -1,0 +1,16 @@
+{
+  "main": "index.js",
+  "name": "web_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Tencent Cloud<tencentcloud@example.com>",
+  "scripts": {
+      "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "mustache": "^3.2.1",
+    "follow-redirects": "^1.14.1"
+  }
+}
+

@@ -1,0 +1,15 @@
+{
+  "main": "sever.js",
+  "name": "web_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Tencent Cloud<tencentcloud@example.com>",
+  "scripts": {
+      "start": "node sever.js"
+  },
+  "dependencies":{
+	  "express": "^4.16.1",
+    "tesseractocr": "^2.0.3"
+  }
+}
+
