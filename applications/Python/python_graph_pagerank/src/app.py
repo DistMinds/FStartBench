@@ -6,7 +6,7 @@ import igraph
 
 def graph_ops(size):
     graph = igraph.Graph.Barabasi(size, 10)
-    return graph.pagerank(0)
+    return graph.pagerank()[0]
 
 def handler(event, context=None):
     start = time()
