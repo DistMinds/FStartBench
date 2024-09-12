@@ -52,6 +52,26 @@ The details are provided in the table below.
 ### 8. Applications
 Applications includes a total of 20 applications in three different programming languages. Among them, Java has 5 applications designed for processing input .csv data, while Node.js and Python have 6 and 8 applications, respectively, each covering different content. 
 
+The details are provided in the table below.
 
-
-
+| Application Name        | Language | Description                                                        |
+|-------------------------|----------|--------------------------------------------------------------------|
+|java_data_group          | Java     | Processes .csv data                                                |
+|java_data_load           | Java     | Processes .csv data                                                |
+|java_data_query          | Java     | Processes .csv data                                                |
+|java_data_scan           | Java     | Processes .csv data                                                |
+|java_data_upload         | Java     | Processes .csv data                                                |
+|nodejs_auto_complete     | Node.js  | Processes file                                                     |
+|nodejs_dynamic_html      | Node.js  | Processes file                                                     |
+|nodejs_image_sizing      | Node.js  | Sizes input image(.png)                                            |
+|nodejs_ocr_image         | Node.js  | Using LSTM to recognize characters in images into base64 code      |
+|nodejs_thumbnailer       | Node.js  | Downloads images(.png)                                             |
+|nodejs_uploader          | Node.js  | Uploads images(.png)                                               |
+|python_dna_visualization | Python   | Visualizes the input DNA code                                      |
+|python_file_compression  | Python   | Compresses fileholder into a .zip file                             |
+|python_file_pagerank     | Python   | Generates a graph using pagerank function                          |
+|python_graph_bfs         | Python   | Performs bfs algorithm                                             |
+|python_graph_markdown    | Python   | Transforms base64-string into a markdown file                      |
+|python_graph_mst         | Python   | Performs mst algorithm                                             |
+|python_image_recognition | Python   | Using Res50 to recognize images                                    |
+|python_sentiment_analysis| Python   | Using TextBlob to recognize emotions in files                      |
