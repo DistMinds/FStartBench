@@ -1,7 +1,7 @@
 # FStartBench
 FStartBench is a benchmark suite with serverless workload.
 
-Our project uses five commonly used application programs on a serverless computing platform as benchmark test programs to represent typical cloud server workloads. Deploying these 13 functions on a serverless platform allows for testing of their cold start time, execution time, memory usage, and other related information. This benchmark can help researchers improve their applications or optimize platform performance.
+Our project uses eight commonly used application programs on a serverless computing platform as benchmark test programs to represent typical cloud server workloads. Deploying these 73 functions on a serverless platform allows for testing of their cold start time, execution time, memory usage, and other related information. This benchmark can help researchers improve their applications or optimize platform performance.
 
 ## Test Cases
 ### 1. Hello App
