@@ -13,7 +13,7 @@ function random(b, e) {
 
 // Handler function
 async function handler(event, context = null) {
-    let username = "hanfeiyu";
+    let username = "entropy";
     let size = 1000;
 
     var random_numbers = new Array(size);
