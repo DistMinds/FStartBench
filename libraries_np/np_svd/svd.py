@@ -6,11 +6,11 @@ app = Flask(__name__)
 
 
 def handler(event, context=None):
-    start = time()
+    start =  GetTime()
     size = 1000
     matrix = np.random.rand(256, 256)
     U,sigma,VT=la.svd(matrix)
-    latency = (time()-start)*1000
+    latency = ( GetTime()-start)*1000
     return latency
 
 @app.route('/event-invoke', methods = ['POST'])
