@@ -6,10 +6,10 @@ app = Flask(__name__)
 
 
 def handler(event, context=None):
-    start = time()
+    start =  GetTime()
     a= np.array([19, 12,  8, 15, 13, 19, 14, 19, 15, 15, 12,  6, 15, 12,  4,  8])
     result = np.square(a)
-    latency = (time()-start)*1000
+    latency = ( GetTime()-start)*1000
     return latency
 
 @app.route('/event-invoke', methods = ['POST'])
