@@ -24,6 +24,34 @@ Libraries-Numpy contains 20 functions from Numpy libraries based on Python, aime
 
 ### 7. Libraries-Torch
 Libraries-Torch comprises 20 functions from Torch libraries, which provide functionalities related to machine learning on images. Similar to Libraries-Numpy, these functions are also developed using a consistent operating system and Python language, as well as the same versions of dependencies. Notably, Libraries-Numpy is built on Alpine, while Libraries-Torch is based on Debian.
+The details are provided in the table below.
+
+|Libraries-Numpy | Libraries-Torch|
+|------------------|----------|
+| arccos           | cifar    | 
+| ceil             | eye      | 
+| cos              | folder   | 
+| det              | fromnp   |  
+| exp              | linspace |
+| fabs             | minst    |
+| floor            | randn    |
+| intersect        | randperm |
+| inv              | alex     |
+| load             | center   | 
+| log              | dense121 |
+| max              | dense169 |
+| min              | flip     |
+| save             | pad      |  
+| shuffle          | res18    | 
+| solve            | res50    |
+| sort             | res152   |
+| sqrt             | save     |
+| square           | squeeze1 |
+| svd              | vgg13    |
 
 ### 8. Applications
-Applications includes a total of 20 applications in three different programming languages. Among them, Java has 5 applications designed for processing input .csv data, while Node.js and Python have 6 and 8 applications, respectively, each covering different content. The details are provided in the table below.
+Applications includes a total of 20 applications in three different programming languages. Among them, Java has 5 applications designed for processing input .csv data, while Node.js and Python have 6 and 8 applications, respectively, each covering different content. 
+
+
+
+
