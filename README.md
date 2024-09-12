@@ -18,3 +18,12 @@ Function 10 is an ALU application used to test the resource requirements of serv
 
 ### 5. Real World App
 To cover various real-world serverless workloads in popular cloud scenarios, three applications were provided: a web application (Function 11), an image processing application (Function 12), and a machine learning application (Function 13).
+
+### 6. Libraries-Numpy 
+Libraries-Numpy contains 20 functions from Numpy libraries based on Python, aimed at facilitating mathematical operations on images. All functions are built on the same operating system and Python language, utilizing the same versions of dependencies. 
+
+### 7. Libraries-Torch
+Libraries-Torch comprises 20 functions from Torch libraries, which provide functionalities related to machine learning on images. Similar to Libraries-Numpy, these functions are also developed using a consistent operating system and Python language, as well as the same versions of dependencies. Notably, Libraries-Numpy is built on Alpine, while Libraries-Torch is based on Debian.
+
+### 8. Applications
+Applications includes a total of 20 applications in three different programming languages. Among them, Java has 5 applications designed for processing input .csv data, while Node.js and Python have 6 and 9 applications, respectively, each covering different content. The details are provided in the table below.
