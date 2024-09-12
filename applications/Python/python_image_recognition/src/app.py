@@ -7,7 +7,6 @@ from torchvision import transforms
 from torchvision.models import resnet50
 from PIL import Image
 from flask import Flask, request
-import requests
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__))))
 
