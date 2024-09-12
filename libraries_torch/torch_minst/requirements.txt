@@ -1,0 +1,5 @@
+Flask==2.1.1
+werkzeug==2.2.3
+torchvision==0.2.2
+torch
+Pillow==6.2.2
